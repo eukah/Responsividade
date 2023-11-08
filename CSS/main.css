@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 6%, rgba(0,212,255,1) 100%);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(4deg, rgba(2,0,36,1) 0%, rgba(0,198,238,1) 0%);
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: block;
+    margin: 20px auto;
+}
+
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    form {
+        display: none;
+    }
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
